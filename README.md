@@ -1,1 +1,2 @@
-# javaascript-practice
+console.log("hii");
+
