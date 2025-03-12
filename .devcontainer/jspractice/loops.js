@@ -101,7 +101,7 @@ function convert(str) {
 
 
  let converstr = (convert(str1));
-console.log( (convert(str1)));
+//console.log( (convert(str1)));
 
  let Count = 0;
  for (const key in converstr) {
@@ -110,5 +110,81 @@ console.log( (convert(str1)));
  }
  
  }
- console.log(Count);
+ //console.log(Count);
  
+
+//  Task: Given an array of numbers, print each number.
+
+// Example Code:
+
+const arr1 = [1,2,3,4,5,6,7]
+arr1.forEach(i => {
+    //console.log(i);
+    
+    
+});
+
+
+// 2️⃣ Find the Sum of All Elements
+// Task: Calculate the sum of all elements in an array.
+
+const arr2 = [1,2,3,4,5,6,7]
+let total = 0;
+arr2.forEach(i => {
+ total += i
+
+
+    
+    
+});
+//console.log(total);
+
+// Capitalize Each Word in an Array
+// Task: Given an array of strings, capitalize the first letter of each word.
+
+// Example Code:
+
+const arr3 = ["akshay", "siisec","ncihee","nrhiehe","bvgfuefie"]
+arr3.forEach((arr3,i,array) =>{
+    array[i] = arr3.charAt(0).toUpperCase() + arr3.slice(1)
+});
+//console.log(arr3);
+
+// Filter Even Numbers
+// Task: Given an array of numbers, print only the even numbers.
+
+// Example Code:
+const arr4 = [15,58,36,14,78,54,15,65,15,74]
+arr4.forEach(i=>{
+if (i % 2 == 0 ) {
+//console.log(i);
+    
+}
+
+})
+// Count the Number of Vowels in a String
+// Task: Given a string, count the total number of vowels.
+
+// Example Code:
+const text = ["akshay","ishiwb","ncihciehe"];
+let vowel = ["a","e","i","o","u"];
+
+text.forEach(word=>{
+    if (vowel.includes(word[0].toLowerCase())) {
+//console.log(word);
+
+        
+    }
+})
+//6️⃣ Create a New Array with Modified Data
+//Task: Multiply each element in the array by 2 and store it in a new array.
+
+const arr5 = [45,55,47]
+const double = [];
+arr5.forEach(i=>{
+    double.push(i*2);
+})
+//console.log(double);
+
+//8️⃣ Count the Frequency of Each Word in a Sentence Task: Given a string, count the occurrence of each word.
+
