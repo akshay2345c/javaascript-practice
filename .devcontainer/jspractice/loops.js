@@ -35,7 +35,7 @@ for (let i = 0; i <= m; i++) {
 
     
 }
- console.log(x);
+ //console.log(x);
 
 //  Reverse an Array
 //  Reverse the elements of an array using a for loop without using reverse() method.
@@ -92,12 +92,23 @@ const prime = 100; for (let i = 2; i <= prime; i++) {
 // Example: "hello" → 5
 
 
-let str1 = "hello";
+let str1 = "Akshay";
 function convert(str) {
     return str.split("");
     
 } 
-convert();
- console.log(convert(str1));
- console.log("hii");
+
+
+
+ let converstr = (convert(str1));
+console.log( (convert(str1)));
+
+ let Count = 0;
+ for (const key in converstr) {
+ if (key) {
+    Count++;
+ }
+ 
+ }
+ console.log(Count);
  
